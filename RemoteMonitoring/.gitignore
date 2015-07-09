@@ -1,0 +1,6 @@
+# Ignore things listed in this file 
+
+
+*.pyc
+*.ini
+*.Ini 
