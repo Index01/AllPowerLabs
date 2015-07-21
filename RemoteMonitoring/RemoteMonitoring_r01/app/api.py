@@ -21,11 +21,11 @@ class Connection():
 
     ''' localize data to connection object '''
     def __localizeData__(self):
-       localData=None
+        localData=None
 
         try:
-            localData==session.get(self.endpointUrl)
-        except e:
+            localData==self.session.get(self.endpointUrl)
+        except Exception, e:
             print e
             
         
@@ -44,20 +44,15 @@ class Connection():
         Connection.__localizeData__()
 
         
-        return data
+        return self.currentData
     
     
     ''' Return only the available keys from the response object '''
-    def getDataMemberKeys(self):
+#    def getDataMemberKeys(self):
             
             
-            
-#        return dataMemeberKeys    
-        
+
     ''' Return a subset of the response object which match a key:val pair '''
-    def getDataMemberSubset(self):
+#    def getDataMemberSubset(self):
 
 
-
-#        return dataSubset        
-        

@@ -14,7 +14,7 @@ to determine whether the machine is offline or otherwise generating bogus data.
 import apiConnector as api
 from ISStreamer.Streamer import Streamer
 from ConfigParser import SafeConfigParser
-
+import os
 
 #TODO: Add an ini file for loading initial endpoint and authentication information
 class MangoInitialStateController():
@@ -25,8 +25,9 @@ class MangoInitialStateController():
         self.name=name
 
         '''We will be using an .ini file for holding auth and instance info. setup here'''
+        cfgPath= os.path.abspath(os.path.join('.', os.pardir)) + "\RemoteMonitoringConfigs.ini"
         self.parser = SafeConfigParser()
-        self.parser.read('RemoteMonitoringConfigs.ini')
+        self.parser.read(cfgPath)
 
         self.mangoApiUrl=self.parser.get('MangoApi', 'apiEndpoint')
         self.mangoConnection=api.Connection("mangoConnection", endpointUrl=self.mangoApiUrl)
