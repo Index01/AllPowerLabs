@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95bdec59-cadc-49ea-b8d3-033396e92aef" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/APL.iml" afterPath="$PROJECT_DIR$/.idea/APL.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHP/README.rd" afterPath="$PROJECT_DIR$/CHP/README.rd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/api.py" afterPath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/api.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/apiConnector.py" afterPath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/apiConnector.py" />
@@ -13,10 +15,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/controllerMangoInitialstate.py" afterPath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/controllerMangoInitialstate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/controllerScheduler.py" afterPath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/controllerScheduler.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/deviceMonitor.py" afterPath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/deviceMonitor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/scheduler.py" afterPath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/scheduler.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/test_controllerMangoInitialstate.py" afterPath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/test_controllerMangoInitialstate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerApiConnector.py" afterPath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerApiConnector.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerControllerMangoInitialState.py" afterPath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerControllerMangoInitialState.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerDeviceMonitor.py" afterPath="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerDeviceMonitor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="APL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/test_controllerMangoInitialstate.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#22#37#0" expanded="true" />
               </folding>
@@ -49,21 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllerScheduler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/controllerScheduler.py">
+      <file leaf-file-name="testerControllerMangoInitialState.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerControllerMangoInitialState.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.86545455">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scheduler.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scheduler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/scheduler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.47943038">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#142#160#0" expanded="true" />
               </folding>
@@ -71,14 +78,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/api.py">
+      <file leaf-file-name="testerDeviceMonitor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerDeviceMonitor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#122#133#0" expanded="true" />
-              </folding>
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/apiConnector.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -97,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/controllerMangoInitialstate.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
               <folding>
                 <element signature="e#419#445#0" expanded="true" />
               </folding>
@@ -143,7 +148,9 @@
       <list>
         <option value="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/api.py" />
         <option value="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/controllerMangoInitialstate.py" />
+        <option value="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/test_controllerMangoInitialstate.py" />
         <option value="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/scheduler.py" />
+        <option value="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerControllerMangoInitialState.py" />
       </list>
     </option>
   </component>
@@ -151,9 +158,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="width" value="1369" />
-    <option name="height" value="768" />
+    <option name="x" value="-161" />
+    <option name="y" value="-1208" />
+    <option name="width" value="1616" />
+    <option name="height" value="1216" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -243,7 +251,7 @@
       <recent name="C:\Users\Index\Repoz\Index01\APL\RemoteMonitoring\RemoteMonitoring_r01\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.scheduler">
+  <component name="RunManager" selected="Python.testerControllerMangoInitialState">
     <configuration default="false" name="Unittests in MangoInitialStateControllerTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,6 +287,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="APL" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/scheduler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testerDeviceMonitor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="APL" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerDeviceMonitor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -405,14 +430,34 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in MangoInitialStateControllerTest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.scheduler" />
+    <configuration default="false" name="testerControllerMangoInitialState" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="APL" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerControllerMangoInitialState.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.testerControllerMangoInitialState" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in MangoInitialStateControllerTest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.scheduler" />
+      <item index="3" class="java.lang.String" itemvalue="Python.testerDeviceMonitor" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.scheduler" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.testerDeviceMonitor" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in MangoInitialStateControllerTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python.scheduler" />
       </list>
     </recent_temporary>
   </component>
@@ -430,27 +475,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1369" height="768" extended-state="0" />
+    <frame x="-161" y="-1208" width="1616" height="1216" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14708056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.124375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.17870036" sideWeight="0.3675" order="7" side_tool="true" content_ui="tabs" x="944" y="618" width="410" height="122" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47833934" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" x="872" y="-230" width="410" height="122" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942238" sideWeight="0.4975" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47833934" sideWeight="0.4975" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.3330325" sideWeight="0.6325" order="2" side_tool="false" content_ui="tabs" x="688" y="1" width="678" height="766" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942238" sideWeight="0.765625" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.3330325" sideWeight="0.6325" order="2" side_tool="false" content_ui="tabs" x="4" y="419" width="1364" height="189" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -502,7 +547,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#122#133#0" expanded="true" />
+            <element signature="e#122#133#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -574,7 +619,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#122#133#0" expanded="true" />
+            <element signature="e#122#133#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -620,6 +665,22 @@
           <folding>
             <element signature="e#22#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/isstreamer.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.017293997">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/controllerScheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1414039">
+          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -628,7 +689,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#122#133#0" expanded="true" />
+            <element signature="e#122#133#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,18 +710,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/controllerScheduler.py">
+    <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/test_controllerMangoInitialstate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
-          <folding />
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/apiConnector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -668,30 +731,36 @@
     <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/controllerMangoInitialstate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
           <folding>
             <element signature="e#419#445#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/test_controllerMangoInitialstate.py">
+    <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/scheduler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="e#22#37#0" expanded="true" />
+            <element signature="e#142#160#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/app/scheduler.py">
+    <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerDeviceMonitor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.47943038">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#142#160#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteMonitoring/RemoteMonitoring_r01/tests/testerControllerMangoInitialState.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86545455">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
