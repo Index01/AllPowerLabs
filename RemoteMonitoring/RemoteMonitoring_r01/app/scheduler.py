@@ -4,7 +4,6 @@ __author__ = 'Index'
 '''A scheduler for running the monitoring controllers at a consistent interval. Experimenting with a few solutions'''
 
 import sched, time
-import controllerMangoInitialstate
 
 
 class scheduleManager():
@@ -13,8 +12,8 @@ class scheduleManager():
         self.schedy=sched.scheduler(time.time, time.sleep)
         self.name=name
 
-    def addTask(self, func, *arg):
-        self.schedy.enter(10, 1, func, arg)
+    def addTask(self, interval, func, *arg):
+        self.schedy.enter(interval, 1, func, arg)
         print self.schedy.queue
 
         return
@@ -43,32 +42,10 @@ class task():
 
         return func
 
+
     def returnFunc(self):
 
 
         return self.func
 
 
-def main():
-
-    MyScheduleManager=scheduleManager('myScheduleManager')
-    MISController=controllerMangoInitialstate.MangoInitialStateController("MISController")
-#    Task_LogData=task('task_logData', func=MISController.logDataToIS, args='pp717')
-
-#    MyScheduleManager.addTask(Task_LogData.taskFunc(), arg='pp717')
-
-    while True:
-        print "pre-run: %s" % MyScheduleManager.checkQueue()
-        MyScheduleManager.addTask(MISController.logDataToIS, 'pp717')
-        print "[+] Runnin dat task"
-
-        print time.time()
-        MyScheduleManager.run()
-
-        print "post run: %s " % MyScheduleManager.checkQueue()
-        print "[+] Been got dat task runned!"
-
-
-
-if __name__=='__main__':
-    main()

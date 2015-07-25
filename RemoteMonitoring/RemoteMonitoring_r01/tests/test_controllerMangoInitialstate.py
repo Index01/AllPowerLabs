@@ -37,7 +37,7 @@ class MangoInitialStateControllerTest(unittest.TestCase):
 
     def test_log_data_to_is(self):
         print "[*] Running test_log_data_to_is"
-        self.failUnless(self.MangoInitialStateControllerTesterInstance.logDataToIS('pp717'),dict)
+        self.failUnless(self.MangoInitialStateControllerTesterInstance.logDataToIS('pp1010'),dict)
 
 
 

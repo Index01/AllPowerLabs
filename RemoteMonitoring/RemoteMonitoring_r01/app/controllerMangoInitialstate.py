@@ -16,7 +16,6 @@ from ISStreamer.Streamer import Streamer
 from ConfigParser import SafeConfigParser
 import os
 
-#TODO: Add an ini file for loading initial endpoint and authentication information
 class MangoInitialStateController():
 
 
