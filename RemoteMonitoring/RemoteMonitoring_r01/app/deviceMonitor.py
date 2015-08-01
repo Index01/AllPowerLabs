@@ -95,10 +95,11 @@ class MonitorDevices():
         dPollInterval={}    # This should probably be a tuple. dictionary for now
 
         dRunStateStatus=self.deviceRunning()
-        for machine, runState in dRunStateStatus:
+        for machine, runState in dRunStateStatus.items():
             if runState==True:
-                dPollInterval[machine]=10    # 10second polling interval for connected running devices
+                dPollInterval[machine]=3    # 10second polling interval for connected running devices
             else:
+                #TODO: change connected interval to 10secs rather than 30 for startup metrics.
                 dPollInterval[machine]=30    # 30second polling interval for connected non-running devices
 
 

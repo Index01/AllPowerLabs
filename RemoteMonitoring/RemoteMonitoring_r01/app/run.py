@@ -4,7 +4,7 @@ __author__ = 'Index'
     just python run.py and all the monitoring, connecting and scheduling will be handled. Make sure there is an
     .ini file with auth information.'''
 
-import time
+#import time
 import scheduler
 import controllerMangoInitialstate
 import deviceMonitor
@@ -33,22 +33,23 @@ def main():
             #TODO: Confirm that there are no scheduling conflicts when multiple machines are running
             for machine, pollTime in dRunningMachines.items():
                 #MyScheduleManager.addTask(MISController.logDataToIS, 'pp1010')
-                MyScheduleManager.addTask(interval=pollTime, func=MISController.logDataToIS, arg=machine)
+                #MyScheduleManager.addTask(interval=pollTime, func=MISController.logDataToIS, arg=str(machine))
+                MyScheduleManager.addTask(pollTime, MISController.logDataToIS, machine)
 
         return
 
 
 
     while True:
-        print "pre-run queue: %s" % MyScheduleManager.checkQueue()
+        #print "pre-run queue: %s" % MyScheduleManager.checkQueue()
         scheduleViableMachine()
 
         print "[+] Runnin dat task"
-        print time.time()
+        #print time.time()
         MyScheduleManager.run()
 
-        print "post-run queue: %s " % MyScheduleManager.checkQueue()
-        print "[+] Been got dat task runned!"
+        #print "post-run queue: %s " % MyScheduleManager.checkQueue()
+        #print "[+] Been got dat task runned!"
 
 
 

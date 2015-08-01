@@ -13,6 +13,7 @@ class scheduleManager():
         self.name=name
 
     def addTask(self, interval, func, *arg):
+        #self.schedy.enter(interval, 1, func, arg)
         self.schedy.enter(interval, 1, func, arg)
         print self.schedy.queue
 
