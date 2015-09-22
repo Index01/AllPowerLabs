@@ -24,11 +24,14 @@ class MangoInitialStateController():
         self.name=name
 
         '''We will be using an .ini file for holding auth and instance info. setup here'''
-        cfgPath= os.path.abspath(os.path.join('.', os.pardir)) + "\RemoteMonitoringConfigs.ini"
+        # The pat needs to be changed to '/' for unix file systems, '\' for dos. 
+        cfgPath= os.path.abspath(os.path.join('.', os.pardir)) + "/RemoteMonitoringConfigs.ini"
+        print cfgPath
         self.parser = SafeConfigParser()
         self.parser.read(cfgPath)
-
-        self.mangoApiUrl=self.parser.get('MangoApi', 'apiEndpoint')
+        print "sections:"
+        self.parser.sections()
+        self.mangoApiUrl=self.parser.get("MangoApi", "apiEndpoint")
         self.mangoConnection=api.Connection("mangoConnection", endpointUrl=self.mangoApiUrl)
         self.currentAuthStatus=None
         self.__auth__()
